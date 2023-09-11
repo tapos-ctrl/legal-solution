@@ -32,6 +32,9 @@
                     },
                     backgroundImage: {
                         "banner-bg": "url('./images/Rectangle 5.png'), url('./images/banner.png') ",
+                        "slider-bg-1": "url('./images/Rectangle 7.png'), url('./images/slider-1.jpg')",
+                        "slider-bg-2": "url('./images/Rectangle 7.png'), url('./images/slider-2.jpg')",
+                        "slider-bg-3": "url('./images/Rectangle 7.png'), url('./images/slider-3.jpg')"
 
                     }
                 }
@@ -207,7 +210,7 @@
                 <div class="carousel w-full">
                     <div id="slide1" class="carousel-item relative w-full bg-banner-bg">
 
-                        <div class="hero bg-banner-bg bg-center lg:py-12 rounded-lg">
+                        <div class="hero bg-slider-bg-1 bg-center lg:py-12 rounded-lg">
                             <div class="hero-content text-center lg:p-24  md:p-24 h-[] text-neutral-content">
                                 <div class="">
                                     <div class="flex justify-center">
@@ -234,7 +237,7 @@
                         </div>
                     </div>
                     <div id="slide2" class="carousel-item relative w-full">
-                        <div class="hero bg-banner-bg bg-center lg:py-12 rounded-lg">
+                        <div class="hero bg-slider-bg-2 bg-center lg:py-12 rounded-lg">
                             <div class="hero-content text-center lg:p-24  md:p-24 h-[] text-neutral-content">
                                 <div class="">
                                     <div class="flex justify-center">
@@ -261,7 +264,7 @@
                         </div>
                     </div>
                     <div id="slide3" class="carousel-item relative w-full">
-                        <div class="hero bg-banner-bg bg-center lg:py-12 rounded-lg">
+                        <div class="hero bg-slider-bg-3 bg-center lg:py-12 rounded-lg">
                             <div class="hero-content text-center lg:p-24  md:p-24 h-[] text-neutral-content">
                                 <div class="">
                                     <div class="flex justify-center">
@@ -284,37 +287,11 @@
                         </div>
                         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide2" class="bg-transparent text-white border-0">❮</a>
-                            <a href="#slide4" class="bg-transparent text-white border-0">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide4" class="carousel-item relative w-full">
-                        <div class="hero bg-banner-bg bg-center lg:py-12 rounded-lg">
-                            <div class="hero-content text-center lg:p-24  md:p-24 h-[] text-neutral-content">
-                                <div class="">
-                                    <div class="flex justify-center">
-                                        <img src="./images/Ellipse 1.png" alt="">
-                                    </div>
-                                    <h1 class="font-bold garamond lg:text-2xl md:text-2xl text-lg mt-6">
-                                        Awlad Hossain
-                                    </h1>
-                                    <p class=" popping lg:text-lg md:text-lg text-xs">
-                                        UIX Designer
-                                    </p>
-                                    <p class="mt-8 lg:text-lg md:text-lg text-xs">Contrary to popular belief, Lorem
-                                        Ipsum is not simply random text. It has roots
-                                        in a piece of classical Latin <br>literature from 45 BC, making it over 2000
-                                        years
-                                        old. Richard McClintock, a Latin professor at Hampden-Sydney<br> College in
-                                        Virginia, looked up one of the more obscure Latin words, consectetur.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide3" class="bg-transparent text-white border-0">❮</a>
                             <a href="#slide1" class="bg-transparent text-white border-0">❯</a>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
         <!-- Client section end -->
@@ -433,9 +410,11 @@
         <!-- Contact Us Section End  -->
     </main>
     <footer class="bg-black text-[#CFCFCF] lg:py-24 md:py-24">
-        <section class="container mx-auto lg:px-0 md:px-10 lg:text-start md:text-start text-center px-5 py-10 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-20">
+        <section
+            class="container mx-auto lg:px-0 md:px-10 lg:text-start md:text-start text-center px-5 py-10 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-20">
             <nav class="lg:py-0 md:py-0 py-5">
-                <header class="footer-title text-center flex lg:justify-start md:justify-start justify-center mb-5"><img src="./images/logo.png" alt=""></header>
+                <header class="footer-title text-center flex lg:justify-start md:justify-start justify-center mb-5"><img
+                        src="./images/logo.png" alt=""></header>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                     alteration in some form, by injected humour.</p>
             </nav>
@@ -459,7 +438,8 @@
                 <fieldset class="form-control pt-4 ">
                     <div class="relative">
                         <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" />
-                        <button class="btn hover:bg-black bg-btn-bg  absolute top-0 right-0 rounded-l-none"><img src="./images/send.png" alt=""></button>
+                        <button class="btn hover:bg-black bg-btn-bg  absolute top-0 right-0 rounded-l-none"><img
+                                src="./images/send.png" alt=""></button>
                     </div>
                 </fieldset>
             </form>
